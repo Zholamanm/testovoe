@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Мобильное меню</title>
+</head>
+<body>
+<button id="toggle-menu-button">Показать меню</button>
+<div class="mobile-menu" id="mobile-menu">
+  <ul class="menu-list" id="menu-list">
+    <li>
+      <a href="#">Main</a>
+    </li>
+    <li class="has-children">
+      <a href="#">More</a>
+      <span class="arrow"></span>
+      <ul class="sub-menu">
+        <li><a href="#">Title</a></li>
+        <li><a href="#">Title</a></li>
+        <li class="has-children">
+          <a href="#">More</a>
+          <span class="arrow"></span>
+          <ul class="sub-menu">
+            <li><a href="#">Title</a></li>
+            <li><a href="#">Title</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#">Контакты</a></li>
+  </ul>
+</div>
+<script src="menu.js"></script>
+</body>
+</html>
